@@ -61,11 +61,11 @@ p {
   line-height: 1.75rem;
 }
 .main-container {
-  padding: 0px 40px;
+  padding: 0px 38px;
 }
 .header-left img {
   /* ADJUST HOME LOGO IMAGE SIZE */
-  width: 410px;
+  width: 408px;
   height: auto;
 }
 
@@ -96,7 +96,7 @@ header {
   border-radius: 5px;
   min-width: 240px;
   /* shift images up just a tad */
-  margin: -2px 0px;
+  /* margin: -2px 0px; */
   height: auto;
   width: 288px;
   height: 173px;
@@ -109,5 +109,5 @@ header {
   display: flex;
   flex-wrap: wrap;
 
-  gap: 10px;
+  gap: 11px;
 }
