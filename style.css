@@ -117,7 +117,7 @@ header {
 
 .story {
   /* DONT TOUCH */
-  padding: 42px 50px;
+  padding: 42px 50px 15px 50px;
   display: flex;
   /* makes the paragraph block go more to the right */
   justify-content: space-between;
@@ -144,9 +144,17 @@ header {
   margin: -284px 100px;
 }
 
+.story-left {
+  padding-bottom: 150px;
+}
+
 .story-right {
   padding-top: 105px;
   width: 438px;
   display: flex;
   flex-direction: column;
+}
+
+.overlay-tank {
+  margin-bottom: 50px;
 }
