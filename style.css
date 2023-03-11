@@ -102,6 +102,10 @@ header {
   gap: 18px;
 }
 
+/* .header-right li:hover {
+  text-decoration: underline;
+} */
+
 .center-cropped {
   /* ADJUST PREVIEW IMAGES */
   border-radius: 5px;
