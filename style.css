@@ -24,16 +24,16 @@ ul {
   list-style-type: none;
 }
 
-
 .social-icons img {
   /* ADJUST SOCIAL MEDIA ICON SIZE */
   width: 35px;
   height: auto;
 }
+
 .text-tank {
   background-color: #f4f4f3;
   width: 388px;
-  height: 440px;
+  height: 475px;
   padding: 24px;
 }
  /* remove underline from all links */
@@ -41,12 +41,15 @@ a {
   text-decoration: none;
   color: #000000;
 }
+
 h2 {
   font-family: 'AktivGrotesk', sans-serif;
   /* calls the bold font family */
   font-weight: bold;
-  font-size: 45px;
+  /* HEADER FONT */
+  font-size: 44px;
   margin: 0;
+  padding-bottom: 24px;
 }
 p, a {
   font-family: 'AktivGrotesk', sans-serif;
@@ -56,13 +59,16 @@ p, a {
 ul {
   padding-left: 0;
 }
+
 p {
   margin: 0;
-  line-height: 1.75rem;
+  line-height: 1.9rem;
 }
+
 .main-container {
   padding: 0px 38px;
 }
+
 .header-left img {
   /* ADJUST HOME LOGO IMAGE SIZE */
   width: 408px;
@@ -113,8 +119,10 @@ header {
   /* DONT TOUCH */
   padding: 42px 50px;
   display: flex;
+  /* makes the paragraph block go more to the right */
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-
 
 .story-image-back, .story-image-front {
   background-position: center center;
@@ -134,4 +142,11 @@ header {
   /* overlay in front */
   z-index: 1;
   margin: -284px 100px;
+}
+
+.story-right {
+  padding-top: 105px;
+  width: 438px;
+  display: flex;
+  flex-direction: column;
 }
