@@ -106,8 +106,28 @@ header {
   height: 173px;
   background-position: center center;
   background-repeat: no-repeat;
+  display: flex;
   justify-content: center;
+  align-items: center;
 }
+
+
+.center-cropped h2 {
+  /* display: none; */
+  padding-bottom: 0px;
+}
+/* the solution was to wrap the whole class of center cropped in an anchor tag so you can click on images with or without hover */
+.center-cropped:hover h2 {
+  width: inherit;
+  height: inherit;
+  /* display: inline-block; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: purple;
+  border-radius: inherit;
+}
+
 
 .features {
   display: flex;
