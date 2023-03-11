@@ -115,10 +115,23 @@ header {
   display: flex;
 }
 
-.story-image-back {
-  width: 488px;
-  height: 468px;
+
+.story-image-back, .story-image-front {
   background-position: center center;
   background-repeat: no-repeat;
   justify-content: center;
+}
+
+.story-image-back {
+  width: 488px;
+  height: 468px;
+  z-index: -1;
+}
+
+.story-image-front {
+  width: 338px;
+  height: 358px;
+  /* overlay in front */
+  z-index: 1;
+  margin: -284px 100px;
 }
