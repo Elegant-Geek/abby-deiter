@@ -1,0 +1,31 @@
+/* The body has a default margin. Remove it via: */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+/* ALL DIVS GIVEN BORDER-BOX to avoid redundancy in code and to make formatting consistent when adding padding! */
+div {
+box-sizing: border-box;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+/* EDIT THIS? */
+.container img{
+  border-radius: 10px;
+  max-width: 250px;
+  height: auto;
+}
+
+.social-icons img {
+  width: 50px;
+  height: auto;
+}
+.text-tank {
+  background-color: #f4f4f3;
+  height: 473px;
+  width: 310px;
+}
