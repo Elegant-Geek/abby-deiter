@@ -95,9 +95,7 @@ header {
   /* ADJUST PREVIEW IMAGES */
   border-radius: 5px;
   min-width: 240px;
-  /* shift images up just a tad */
-  /* margin: -2px 0px; */
-  height: auto;
+  /* it is ok to manually set width and height because the background image only snaps to fit width */
   width: 288px;
   height: 173px;
   background-position: center center;
@@ -108,6 +106,19 @@ header {
 .features {
   display: flex;
   flex-wrap: wrap;
-
   gap: 11px;
+}
+
+.story {
+  /* DONT TOUCH */
+  padding: 42px 50px;
+  display: flex;
+}
+
+.story-image-back {
+  width: 488px;
+  height: 468px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  justify-content: center;
 }
