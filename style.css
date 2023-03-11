@@ -92,11 +92,19 @@ header {
 
 .center-cropped {
   /* ADJUST PREVIEW IMAGES */
-  border-radius: 8px;
+  border-radius: 5px;
   max-width: 600px;
+  /* shift images up just a tad */
+  margin: -2px 0px;
   height: auto;
-  width: 290px;
+  width: 288px;
   height: 173px;
   background-position: center center;
   background-repeat: no-repeat;
+  justify-content: center;
+}
+
+.features {
+  display: flex;
+  gap: 10px;
 }
