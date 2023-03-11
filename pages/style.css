@@ -1,0 +1,120 @@
+/* STYLESHEET FOR PAGES */
+
+@font-face {
+  font-family: 'AktivGrotesk';
+  src: url(../fonts/AktivGrotesk-RegularT.ttf) format('truetype'),
+       url(../fonts/AktivGrotesk-Regular.otf) format('opentype');
+       font-weight: normal;
+}
+@font-face {
+  font-family: 'AktivGrotesk';
+  src: url(../fonts/AktivGrotesk-BoldT.ttf) format('truetype'),
+       url(../fonts/AktivGrotesk-Bold.otf) format('opentype');
+       font-weight: bold;
+}
+/* The body has a default margin. Remove it via: */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+/* ALL DIVS GIVEN BORDER-BOX to avoid redundancy in code and to make formatting consistent when adding padding! */
+div {
+box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.social-icons img {
+  /* ADJUST SOCIAL MEDIA ICON SIZE */
+  width: 30px;
+  height: auto;
+}
+
+ /* remove underline from all links */
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+p, a {
+  font-family: 'AktivGrotesk', sans-serif;
+  font-size: 17.5px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+p {
+  margin: 0;
+  line-height: 1.9rem;
+}
+
+.main-container {
+  padding: 0px 38px;
+}
+
+.header-left img {
+  /* ADJUST HOME LOGO IMAGE SIZE */
+  width: 408px;
+  height: auto;
+}
+
+header {
+  padding: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-right ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  /* HEADER LINKS GAP SPACING */
+  gap: 18px;
+}
+
+.image-box {
+  height: 1300px;
+  margin-left: -29px;
+  padding-top: 8px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.image-box img {
+  /* SETS WIDTH OF ALL IMAGES */
+  width: 355px;
+  height: auto;
+  flex: none;
+  padding: 30px;
+}
+
+.socials {
+  display: flex;
+  justify-content:  flex-end;
+  padding: 10px 80px 0px 0px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.credits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
