@@ -10,6 +10,11 @@
        url(./fonts/AktivGrotesk-Bold.otf) format('opentype');
        font-weight: bold;
 }
+@font-face {
+  font-family: 'Playfair';
+  src: url(./fonts/PlayfairDisplay-VariableFont_wght.ttf) format('truetype');
+       font-weight: normal;
+}
 /* The body has a default margin. Remove it via: */
 html, body {
   margin: 0;
@@ -113,6 +118,7 @@ header {
 
 .center-cropped h2 {
   /* display: none; */
+  font-family: 'Playfair', sans-serif;
   padding-bottom: 0px;
   font-size: 16px;
   text-transform: uppercase;
@@ -130,7 +136,6 @@ header {
   background-color: #7877e6;
   border-radius: inherit;
 }
-
 
 .features {
   display: flex;
