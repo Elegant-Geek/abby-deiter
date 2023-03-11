@@ -120,8 +120,9 @@ header {
   padding: 42px 50px;
   display: flex;
   /* makes the paragraph block go more to the right */
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
+  gap: 100px;
 }
 
 .story-image-back, .story-image-front {
