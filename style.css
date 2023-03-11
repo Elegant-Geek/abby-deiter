@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'AktivGrotesk';
+  src: url(./fonts/AktivGrotesk-RegularT.ttf) format('truetype'),
+       url(./fonts/AktivGrotesk-Regular.otf) format('opentype');
+       font-weight: normal;
+}
+@font-face {
+  font-family: 'AktivGrotesk';
+  src: url(./fonts/AktivGrotesk-BoldT.ttf) format('truetype'),
+       url(./fonts/AktivGrotesk-Bold.otf) format('opentype');
+       font-weight: bold;
+}
 /* The body has a default margin. Remove it via: */
 html, body {
   margin: 0;
@@ -35,14 +47,15 @@ a {
   color: #000000;
 }
 h2 {
-  font-family: 'aktiv-grotesk', sans-serif;
-  font-weight: 700;
+  font-family: 'AktivGrotesk', sans-serif;
+  /* calls the bold font family */
+  font-weight: bold;
   font-size: 45px;
   margin: 0;
 }
 p, a {
-  font-family: 'aktiv-grotesk', sans-serif;
-  font-weight: 400;
+  font-family: 'AktivGrotesk', sans-serif;
+
   font-size: 17.5px;
 }
 
