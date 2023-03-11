@@ -8,7 +8,6 @@ div {
 box-sizing: border-box;
 }
 
-
 ul {
   list-style-type: none;
 }
@@ -46,6 +45,10 @@ p, a {
   font-weight: 400;
   font-size: 17.5px;
 }
+
+ul {
+  padding-left: 0;
+}
 p {
   margin: 0;
   line-height: 1.75rem;
@@ -54,9 +57,31 @@ p {
   padding: 0px 40px;
 }
 .header-left img {
+  /* ADJUST HOME LOGO IMAGE SIZE */
   width: 410px;
+  height: auto;
 }
 
 header {
   padding: 32px 0px;
+  display: flex;
+  justify-content: space-between;
 }
+
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-right ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  /* HEADER LINKS GAP SPACING */
+  gap: 18px;
+}
+
+
+
