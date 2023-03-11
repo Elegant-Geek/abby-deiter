@@ -85,7 +85,7 @@ header {
 }
 
 .image-box {
-  height: 1300px;
+  /* height: 1300px; */
   margin-left: -29px;
   padding-top: 8px;
   display: flex;
