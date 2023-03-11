@@ -28,7 +28,7 @@ ul {
 
 .social-icons img {
   /* ADJUST SOCIAL MEDIA ICON SIZE */
-  width: 30px;
+  width: 20px;
   height: auto;
 }
 
@@ -103,8 +103,8 @@ header {
 
 .socials {
   display: flex;
-  justify-content:  flex-end;
-  padding: 10px 80px 0px 0px;
+  justify-content:  center;
+  padding: 10px 0px;
 }
 
 .social-icons {
