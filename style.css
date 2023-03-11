@@ -24,12 +24,7 @@ ul {
   list-style-type: none;
 }
 
-/* EDIT THIS? */
-.container img{
-  border-radius: 10px;
-  max-width: 250px;
-  height: auto;
-}
+
 .social-icons img {
   /* ADJUST SOCIAL MEDIA ICON SIZE */
   width: 35px;
@@ -55,7 +50,6 @@ h2 {
 }
 p, a {
   font-family: 'AktivGrotesk', sans-serif;
-
   font-size: 17.5px;
 }
 
@@ -76,7 +70,7 @@ p {
 }
 
 header {
-  padding: 32px 0px;
+  padding: 30px 0px;
   display: flex;
   justify-content: space-between;
 }
@@ -96,5 +90,13 @@ header {
   gap: 18px;
 }
 
-
-
+.center-cropped {
+  /* ADJUST PREVIEW IMAGES */
+  border-radius: 8px;
+  max-width: 600px;
+  height: auto;
+  width: 290px;
+  height: 173px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
