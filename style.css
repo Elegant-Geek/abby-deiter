@@ -86,6 +86,7 @@ header {
   padding: 0px;
   margin: 0px;
   display: flex;
+  flex-wrap: wrap;
   /* HEADER LINKS GAP SPACING */
   gap: 18px;
 }
@@ -93,7 +94,7 @@ header {
 .center-cropped {
   /* ADJUST PREVIEW IMAGES */
   border-radius: 5px;
-  max-width: 600px;
+  min-width: 240px;
   /* shift images up just a tad */
   margin: -2px 0px;
   height: auto;
@@ -106,5 +107,7 @@ header {
 
 .features {
   display: flex;
+  flex-wrap: wrap;
+
   gap: 10px;
 }
