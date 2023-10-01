@@ -86,17 +86,20 @@ header {
 
 .image-box {
   /* height: 1300px; */
-  margin-left: -29px;
+  /* margin-left: -30px; */
   padding-top: 8px;
   display: flex;
-  flex-direction: column;
+  /* changed to row from column to display from left to right THEN top to bottom. */
+  flex-direction: row;
   align-items: center;
+  /* centering the box of images! */
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .image-box img {
   /* SETS WIDTH OF ALL IMAGES */
-  width: 355px;
+  width: 335px;
   height: auto;
   flex: none;
   padding: 30px;
